@@ -1,15 +1,15 @@
-# ERC-8183 + ACP Integration Architecture
+# Veridex: ERC-8183 + ACP Integration Architecture
 
 ## Overview
 
-This document describes how trust-score-aggregator integrates with:
+This document describes how **Veridex** (The Agent Trust Index) integrates with:
 - **ERC-8183**: On-chain agentic commerce standard (Job escrow + evaluator attestation)
 - **Virtual Protocol ACP**: Off-chain agent commerce infrastructure (discovery, negotiation, CLI)
 - **ERC-8004**: On-chain agent identity and reputation registries
 
 ## The Value Proposition
 
-Trust-score-aggregator provides the **trust layer** for agent commerce:
+Veridex provides the **definitive trust index** for agent commerce:
 
 1. **Pre-job Trust Gating**: Hooks query trust scores before allowing job creation
 2. **Evaluator Intelligence**: AI evaluators use trust data for attestation decisions
@@ -37,7 +37,7 @@ Trust-score-aggregator provides the **trust layer** for agent commerce:
 │         │ 2. Check trust │ 3. Create job                             │
 │         ▼                ▼                                            │
 │  ┌─────────────────────────────────────────────────────────────────┐ │
-│  │              TRUST-SCORE-AGGREGATOR API                         │ │
+│  │                      VERIDEX API                                │ │
 │  │                                                                 │ │
 │  │  GET /v1/agents/{id}/score  →  Returns trust score (0-100)     │ │
 │  │  GET /v1/premium/agents/{id}/score/full  →  Detailed breakdown │ │

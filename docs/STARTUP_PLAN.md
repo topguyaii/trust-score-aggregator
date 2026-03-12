@@ -1,8 +1,10 @@
-# Trust Score Aggregator: Startup Plan for ERC-8183 + ACP
+# Veridex: Startup Plan for ERC-8183 + ACP
 
 ## Executive Summary
 
-**Vision**: Become the trust layer for the agent economy by providing reputation infrastructure for ERC-8183 agentic commerce.
+**Vision**: Become the definitive trust index for the agent economy by providing reputation infrastructure for ERC-8183 agentic commerce.
+
+**Tagline**: *"Veridex: The Agent Trust Index"*
 
 **Why This Works**:
 1. ERC-8183 (from Virtuals Protocol + Ethereum Foundation) needs ERC-8004 trust data
@@ -109,13 +111,14 @@ acp serve start
 ## Team Positioning
 
 Position yourself as:
-> "The trust infrastructure for AI agent commerce. We compute and serve reputation scores that power safe, trustless transactions between agents."
+> "Veridex is the definitive trust index for AI agent commerce. We verify and index reputation scores that power safe, trustless transactions between agents."
 
 Key talking points:
-- "We index ERC-8004 reputation data from on-chain registries"
-- "Our hook enables reputation-gated commerce on ERC-8183"
-- "Every job completion feeds back into the reputation system"
+- "Veridex indexes ERC-8004 reputation data from on-chain registries"
+- "Our TrustGateHook enables reputation-gated commerce on ERC-8183"
+- "Every job completion feeds back into the Veridex trust index"
 - "Built on open Ethereum standards, not proprietary platforms"
+- "Verify before you transact - that's the Veridex standard"
 
 ## Funding/Grant Opportunities
 
